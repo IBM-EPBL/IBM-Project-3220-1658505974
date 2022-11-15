@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Delay-Prediction</title>
+</head>
+<style>
+body{
+ background-image: url('im2.gif') ;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  </style>
+<body >
+<br><br><br><br>
+    <div class="container" >
+    <h1 class="text-center m-3 badge-dark text-wrap">Airlines Delay Prediction</h1>
+        <div class="card container" style="width: 50%;">
+            <div class="card-body" >
+                    <form action="/" method="post">
+                        <div class="form-group">
+                          <label for="formGroupExampleInput1">Elevation feet</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="formGroupExampleInput1"
+                            name="elevation_ft"
+                            placeholder="{{elevation_ft}}"
+                            required
+                          />
+                        </div>
+                     
+                        <h2 class="text-center  text-wrap" >The Delay  rate is {{res}} minutes </h2>
+                        
+                      </form>
+                    </div>
+            
+                      <center><a href="/"><button type="submit" class="btn btn-dark">Back</button></a></center>
+                    </div>  
+
+    </div>
+
+</body>
+</html>
